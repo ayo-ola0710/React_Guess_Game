@@ -16,7 +16,6 @@ const Home = () => {
     const guess = Math.floor(Math.random() * 100) + 1;
     setRandomGuess(guess);
     setIsGameStarted(true);
-    setTries(0);
     setUserInput("");
     setGameOver(false);
   }
