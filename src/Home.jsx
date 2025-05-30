@@ -49,7 +49,7 @@ const Home = () => {
 
   return (
     <div className="bg-[#222222] text-white font-serif pt-7 pl-8 pb-[580px]">
-      <Button title="Start!" onClick={gameBegin} />
+      <Button title="Start!" onClick={gameBegin} disabled={gameOver} />
 
       {isGameStarted && (
         <div className="text-center pt-6">
